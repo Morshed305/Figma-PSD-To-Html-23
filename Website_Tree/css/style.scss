@@ -515,7 +515,7 @@
             width: 732px;
             height: 732px;
             margin-top: -89px;
-            
+
 
             >img {
                 width: 835px;
@@ -1063,6 +1063,100 @@
         box-shadow: 7px 13px 25px 8px rgba(2, 2, 2, 0.151);
         border: 1px solid rgba(255, 255, 255, 0.13);
         border-radius: 51px;
+
+        >.Main_face_box {
+            display: flex;
+            width: 350px;
+            height: 88px;
+            margin-left: 58px;
+            margin-top: 81px;
+            
+
+            >.Face_box {
+                height: 88px;
+                width: 88px;
+                border-radius: 50%;
+                overflow: hidden;
+                margin-left: -0px;
+
+                >img {
+                    height: 265px;
+                    width: 248px;
+                    margin-left: -80px;
+                }
+            }
+
+            >.Text_box {
+                
+                display: grid;
+                margin-left: -20px;
+
+                >h4 {
+
+                    font-size: 38px;
+                    color: #ffffff;
+                }
+
+                >.Five_Star {
+                    display: flex;
+                    width: 140px;
+                    height: 14.7px;
+                    margin-left: -3px;
+                    justify-content: space-between;
+
+                    >.One_Str {
+                        width: 19px;
+                        height: 19px;
+                        background: #FFF84E;
+                        clip-path: polygon(42% 42%, 0 38%, 38% 58%, 19% 96%, 52% 69%, 93% 92%, 67% 55%, 100% 31%, 60% 41%, 49% 0);
+                    }
+
+                    >.two_str {
+                        width: 19px;
+                        height: 19px;
+                        background: #FFF84E;
+                        clip-path: polygon(42% 42%, 0 38%, 38% 58%, 19% 96%, 52% 69%, 93% 92%, 67% 55%, 100% 31%, 60% 41%, 49% 0);
+
+                    }
+
+                    >.Three_Str {
+                        width: 19px;
+                        height: 19px;
+                        background: #FFF84E;
+                        clip-path: polygon(42% 42%, 0 38%, 38% 58%, 19% 96%, 52% 69%, 93% 92%, 67% 55%, 100% 31%, 60% 41%, 49% 0);
+
+                    }
+
+                    >.Four_str {
+                        width: 19px;
+                        height: 19px;
+                        background: #FFF84E;
+                        clip-path: polygon(42% 42%, 0 38%, 38% 58%, 19% 96%, 52% 69%, 93% 92%, 67% 55%, 100% 31%, 60% 41%, 49% 0);
+
+                    }
+
+                    >.five_str {
+                        width: 19px;
+                        height: 19px;
+                        background: #FFF84E;
+                        clip-path: polygon(42% 42%, 0 38%, 38% 58%, 19% 96%, 52% 69%, 93% 92%, 67% 55%, 100% 31%, 60% 41%, 49% 0);
+
+                    }
+
+                }
+            }
+        }
+
+        >.text_p {
+            width: 403px;
+            height: 145px;
+            margin-top: 61px;
+
+            >p {
+                font-size: 24px;
+                color: #FFFFFF;
+            }
+        }
     }
 
     >.Customer_Review_2 {
@@ -1076,6 +1170,100 @@
         box-shadow: 7px 13px 25px 8px rgba(2, 2, 2, 0.151);
         border: 1px solid rgba(255, 255, 255, 0.13);
         border-radius: 51px;
+
+        >.Main_face_box {
+            display: flex;
+            width: 350px;
+            height: 88px;
+            margin-left: 58px;
+            margin-top: 81px;
+            
+
+            >.Face_box {
+                height: 88px;
+                width: 88px;
+                border-radius: 50%;
+                overflow: hidden;
+                margin-left: -0px;
+
+                >img {
+                    height: 265px;
+                    width: 248px;
+                    margin-left: -80px;
+                }
+            }
+
+            >.Text_box {
+                
+                display: grid;
+                margin-left: -20px;
+
+                >h4 {
+
+                    font-size: 38px;
+                    color: #ffffff;
+                }
+
+                >.Five_Star {
+                    display: flex;
+                    width: 140px;
+                    height: 14.7px;
+                    margin-left: -3px;
+                    justify-content: space-between;
+
+                    >.One_Str {
+                        width: 19px;
+                        height: 19px;
+                        background: #FFF84E;
+                        clip-path: polygon(42% 42%, 0 38%, 38% 58%, 19% 96%, 52% 69%, 93% 92%, 67% 55%, 100% 31%, 60% 41%, 49% 0);
+                    }
+
+                    >.two_str {
+                        width: 19px;
+                        height: 19px;
+                        background: #FFF84E;
+                        clip-path: polygon(42% 42%, 0 38%, 38% 58%, 19% 96%, 52% 69%, 93% 92%, 67% 55%, 100% 31%, 60% 41%, 49% 0);
+
+                    }
+
+                    >.Three_Str {
+                        width: 19px;
+                        height: 19px;
+                        background: #FFF84E;
+                        clip-path: polygon(42% 42%, 0 38%, 38% 58%, 19% 96%, 52% 69%, 93% 92%, 67% 55%, 100% 31%, 60% 41%, 49% 0);
+
+                    }
+
+                    >.Four_str {
+                        width: 19px;
+                        height: 19px;
+                        background: #FFF84E;
+                        clip-path: polygon(42% 42%, 0 38%, 38% 58%, 19% 96%, 52% 69%, 93% 92%, 67% 55%, 100% 31%, 60% 41%, 49% 0);
+
+                    }
+
+                    >.five_str {
+                        width: 19px;
+                        height: 19px;
+                        background: #FFF84E;
+                        clip-path: polygon(42% 42%, 0 38%, 38% 58%, 19% 96%, 52% 69%, 93% 92%, 67% 55%, 100% 31%, 60% 41%, 49% 0);
+
+                    }
+
+                }
+            }
+        }
+
+        >.text_p {
+            width: 403px;
+            height: 145px;
+            margin-top: 61px;
+
+            >p {
+                font-size: 24px;
+                color: #FFFFFF;
+            }
+        }
     }
 
     >.Customer_Review_3 {
@@ -1090,6 +1278,100 @@
         box-shadow: 7px 13px 25px 8px rgba(2, 2, 2, 0.151);
         border: 1px solid rgba(255, 255, 255, 0.13);
         border-radius: 51px;
+
+        >.Main_face_box {
+            display: flex;
+            width: 350px;
+            height: 88px;
+            margin-left: 58px;
+            margin-top: 81px;
+            
+
+            >.Face_box {
+                height: 88px;
+                width: 88px;
+                border-radius: 50%;
+                overflow: hidden;
+                margin-left: -0px;
+
+                >img {
+                    height: 265px;
+                    width: 248px;
+                    margin-left: -80px;
+                }
+            }
+
+            >.Text_box {
+                
+                display: grid;
+                margin-left: -20px;
+
+                >h4 {
+
+                    font-size: 38px;
+                    color: #ffffff;
+                }
+
+                >.Five_Star {
+                    display: flex;
+                    width: 140px;
+                    height: 14.7px;
+                    margin-left: -3px;
+                    justify-content: space-between;
+
+                    >.One_Str {
+                        width: 19px;
+                        height: 19px;
+                        background: #FFF84E;
+                        clip-path: polygon(42% 42%, 0 38%, 38% 58%, 19% 96%, 52% 69%, 93% 92%, 67% 55%, 100% 31%, 60% 41%, 49% 0);
+                    }
+
+                    >.two_str {
+                        width: 19px;
+                        height: 19px;
+                        background: #FFF84E;
+                        clip-path: polygon(42% 42%, 0 38%, 38% 58%, 19% 96%, 52% 69%, 93% 92%, 67% 55%, 100% 31%, 60% 41%, 49% 0);
+
+                    }
+
+                    >.Three_Str {
+                        width: 19px;
+                        height: 19px;
+                        background: #FFF84E;
+                        clip-path: polygon(42% 42%, 0 38%, 38% 58%, 19% 96%, 52% 69%, 93% 92%, 67% 55%, 100% 31%, 60% 41%, 49% 0);
+
+                    }
+
+                    >.Four_str {
+                        width: 19px;
+                        height: 19px;
+                        background: #FFF84E;
+                        clip-path: polygon(42% 42%, 0 38%, 38% 58%, 19% 96%, 52% 69%, 93% 92%, 67% 55%, 100% 31%, 60% 41%, 49% 0);
+
+                    }
+
+                    >.five_str {
+                        width: 19px;
+                        height: 19px;
+                        background: #FFF84E;
+                        clip-path: polygon(42% 42%, 0 38%, 38% 58%, 19% 96%, 52% 69%, 93% 92%, 67% 55%, 100% 31%, 60% 41%, 49% 0);
+
+                    }
+
+                }
+            }
+        }
+
+        >.text_p {
+            width: 403px;
+            height: 145px;
+            margin-top: 61px;
+
+            >p {
+                font-size: 24px;
+                color: #FFFFFF;
+            }
+        }
     }
 
     // Customer_review_END
