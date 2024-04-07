@@ -356,6 +356,83 @@
         box-shadow: 7px 13px 25px 8px rgba(2, 2, 2, 0.151);
         border: 1px solid rgba(255, 255, 255, 0.13);
         border-radius: 151px;
+        display: flex;
+
+        >.bst_text_box {
+            margin-left: 384px;
+            width: 772px;
+            margin-top: 121px;
+
+            >h1 {
+                font-size: 38px;
+                color: #FFFFFF;
+                margin-top: -0px;
+            }
+
+            >p {
+                font-size: 20px;
+                color: #FFFFFF;
+                margin-top: 24px;
+            }
+
+            >.price {
+                font-size: 38px;
+                color: #FFFFFF;
+                margin-top: 24px;
+            }
+
+            >.bag_box {
+                display: flex;
+                margin-top: 24px;
+
+                >input {
+                    width: 217px;
+                    height: 64px;
+                    background: none;
+                    border: 1px solid white;
+                    border-radius: 12px;
+                    margin-left: -0px;
+
+                    // New_for_me 
+                    &::placeholder {
+                        font-family: sans-serif;
+                        color: rgb(230, 225, 225);
+                        font-size: 28px;
+                        text-align: center;
+                    }
+                }
+
+
+                >.bag {
+                    width: 55px;
+                    height: 55px;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    margin-left: -430px;
+
+                    >a>.bag_img_Siz {
+                        width: 27px;
+                        height: 27px;
+                        margin-top: 10.5px;
+                        margin-left: 12px;
+                    }
+                }
+            }
+        }
+
+        >.bestImg {
+            width: 435px;
+            height: 608px;
+            margin-top: -89px;
+            margin-left: -20px;
+
+            >img {
+                margin-top: -40px;
+                width: 540px;
+                height: 730px;
+            }
+        }
+
     }
 
     >.HorizontalTreeBox_2 {
@@ -370,6 +447,84 @@
         box-shadow: 7px 13px 25px 8px rgba(2, 2, 2, 0.151);
         border: 1px solid rgba(255, 255, 255, 0.13);
         border-radius: 151px;
+        display: flex;
+
+        >.bst_text_box {
+            margin-left: 122px;
+            width: 772px;
+            margin-top: 121px;
+
+            >h1 {
+                font-size: 38px;
+                color: #FFFFFF;
+                margin-top: -0px;
+            }
+
+            >p {
+                font-size: 20px;
+                color: #FFFFFF;
+                margin-top: 24px;
+            }
+
+            >.price {
+                font-size: 38px;
+                color: #FFFFFF;
+                margin-top: 24px;
+            }
+
+            >.bag_box {
+                display: flex;
+                margin-top: 24px;
+
+                >input {
+                    width: 217px;
+                    height: 64px;
+                    background: none;
+                    border: 1px solid white;
+                    border-radius: 12px;
+                    margin-left: -0px;
+
+                    // New_for_me 
+                    &::placeholder {
+                        font-family: sans-serif;
+                        color: rgb(230, 225, 225);
+                        font-size: 28px;
+                        text-align: center;
+                    }
+                }
+
+
+                >.bag {
+                    width: 55px;
+                    height: 55px;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    margin-left: -430px;
+
+                    >a>.bag_img_Siz {
+                        width: 27px;
+                        height: 27px;
+                        margin-top: 10.5px;
+                        margin-left: 12px;
+                    }
+                }
+            }
+        }
+
+        >.bestImg {
+            width: 732px;
+            height: 732px;
+            margin-top: -89px;
+            
+
+            >img {
+                width: 835px;
+                height: 890px;
+                margin-top: -120px;
+                margin-left: -10px;
+            }
+        }
+
     }
 
     // Horizontal_Tree_Box__END
@@ -705,7 +860,7 @@
 
         >img {
             margin-left: -80px;
-            
+
         }
     }
 
