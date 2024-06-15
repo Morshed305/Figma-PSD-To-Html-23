@@ -1070,7 +1070,7 @@
             height: 88px;
             margin-left: 58px;
             margin-top: 81px;
-            
+
 
             >.Face_box {
                 height: 88px;
@@ -1087,7 +1087,7 @@
             }
 
             >.Text_box {
-                
+
                 display: grid;
                 margin-left: -20px;
 
@@ -1177,7 +1177,7 @@
             height: 88px;
             margin-left: 58px;
             margin-top: 81px;
-            
+
 
             >.Face_box {
                 height: 88px;
@@ -1194,7 +1194,7 @@
             }
 
             >.Text_box {
-                
+
                 display: grid;
                 margin-left: -20px;
 
@@ -1285,7 +1285,7 @@
             height: 88px;
             margin-left: 58px;
             margin-top: 81px;
-            
+
 
             >.Face_box {
                 height: 88px;
@@ -1302,7 +1302,7 @@
             }
 
             >.Text_box {
-                
+
                 display: grid;
                 margin-left: -20px;
 
@@ -1432,115 +1432,7 @@
 
     // <!-- Our_Best_TREE_END -->
 
-    >.Nav {
-        width: 1639px;
-        height: 80px;
-        background: #ffffff0a;
-        border-radius: 20px;
-        margin-top: 42px;
-        margin-left: 44px;
-        overflow: hidden;
-        position: fixed;
-        box-shadow: 5px 10px 20px 5px rgba(2, 2, 2, 0.151);
-        border: 1px solid rgba(255, 255, 255, 0.267);
-        display: flex;
 
-        >.Nav_icon {
-            display: flex;
-            margin-left: 6px;
-            width: 150px;
-
-            >.Nav_Name {
-                color: rgb(255, 255, 255);
-                font-size: 28px;
-                margin-top: 20px;
-                margin-left: 7px;
-
-            }
-
-            >.Nav_icon_img_size {
-                margin-top: 7px;
-                height: 58px;
-                width: 58px;
-
-            }
-
-        }
-
-        >.Nav_Menu {
-            width: 545px;
-            height: 29px;
-            margin-top: 25.5px;
-            margin-left: 385px;
-            display: flex;
-
-            >div {
-                color: rgb(255, 255, 255);
-                font-size: 24px;
-            }
-        }
-
-        >.Search {
-            margin-top: 20px;
-            height: 40px;
-            width: 40px;
-            margin-left: 230px;
-
-            // display: flex;
-            >.input {
-                margin-top: 5px;
-                height: 30px;
-                width: 80px;
-                overflow: hidden;
-                position: absolute;
-                background: none;
-                border: 1px solid rgba(255, 255, 255, 0.363);
-                border-radius: 10px;
-
-                &:hover {
-                    background: #000000;
-                    border: 1px solid #ffffff;
-                }
-            }
-
-            >.Search_img_Siz {
-                margin-top: 11px;
-                height: 18px;
-                width: 18px;
-                background: none;
-                position: relative;
-                margin-left: 55px;
-            }
-        }
-
-        >.bag {
-            height: 40px;
-            width: 40px;
-            margin-left: 80px;
-
-            >a>.bag_img_Siz {
-                margin-top: 5px;
-                height: 30px;
-                width: 30px;
-                margin-left: 5px;
-            }
-        }
-
-        >.ThreeDotMenu {
-            height: 40px;
-            width: 60px;
-            margin-left: 40px;
-
-            >a>.ThreeDotMenu_img_siz {
-                margin-top: 10px;
-                height: 20px;
-                width: 40px;
-                margin-left: 10px;
-            }
-        }
-    }
-
-    // Nav...END
     >.Main_Footer_Box {
         margin-top: 7103px;
         margin-left: 0;
@@ -1551,4 +1443,116 @@
 
     // Footer_Box_END -->
 
+}
+.Nav {
+    width: 1639px;
+    height: 80px;
+    background: #ffffff0a;
+    border-radius: 20px;
+    margin-top: 42px;
+    margin-left: 44px;
+    overflow: hidden;
+    position: fixed;
+    box-shadow: 5px 10px 20px 5px rgba(2, 2, 2, 0.151);
+    border: 1px solid rgba(255, 255, 255, 0.267);
+    display: flex;
+    color: #FFFFFF;
+
+    >.Nav_icon {
+        display: flex;
+        margin-left: 6px;
+        width: 150px;
+        
+        >.Nav_Name {
+            
+            font-size: 28px;
+            margin-top: 20px;
+            margin-left: 7px;
+
+        }
+
+        >.Nav_icon_img_size {
+            margin-top: 7px;
+            height: 58px;
+            width: 58px;
+
+        }
+
+    }
+
+    >.Nav_Menu {
+        width: 545px;
+        height: 29px;
+        margin-top: 25.5px;
+        margin-left: 385px;
+        display: flex;
+
+        >div {
+            
+            font-size: 24px;
+        }
+    }
+
+    >.Search {
+        margin-top: 20px;
+        height: 40px;
+        width: 40px;
+        margin-left: 230px;
+
+        // display: flex;
+        >.input {
+            margin-top: 5px;
+            height: 30px;
+            width: 80px;
+            overflow: hidden;
+            position: absolute;
+            background: none;
+            border: 1.5px solid rgb(255, 255, 255);
+            border-radius: 10px;
+
+            &:hover {
+                background: #1B2316;
+                border: 2px solid #ffffff;
+            }
+        }
+
+        >.Search_img_Siz {
+            margin-top: 11px;
+            height: 18px;
+            width: 18px;
+            background: none;
+            position: relative;
+            margin-left: 55px;
+        }
+    }
+
+    >.bag {
+        height: 40px;
+        width: 40px;
+        margin-left: 80px;
+
+        >a>.bag_img_Siz {
+            margin-top: 5px;
+            height: 30px;
+            width: 30px;
+            margin-left: 5px;
+        }
+    }
+
+    >.ThreeDotMenu {
+        height: 40px;
+        width: 60px;
+        margin-left: 40px;
+
+        >a>.ThreeDotMenu_img_siz {
+            margin-top: 10px;
+            height: 20px;
+            width: 40px;
+            margin-left: 10px;
+        }
+    }
+    &:hover{
+        background: #000000e8;
+       
+    }
 }

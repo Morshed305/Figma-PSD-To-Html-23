@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.MainProjectBody {
+    width: 95%;
+    height: 100vh;
+    background: #1B2316;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    position: relative;
+
+    .Navigation {
+        background: #45d7eb;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        height: 80px;
+
+        .menu {
+            display: flex;
+            justify-content: center;
+
+            a {
+                padding: 23px;
+                text-decoration: none;
+                color: rgb(161, 147, 147);
+
+                &:hover {
+                    background: #c9b9b9;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .MainProjectBody {
+        .Navigation {
+            .menu {
+                margin-top: 80px;
+                background: #000;
+                flex-direction: column;
+            }
+        }
+    }
+}
